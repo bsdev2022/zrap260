@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Definition for Travel App'
+define service ZRAP260_UI_Travel {
+  expose ZRAP260_C_Travel  as Travel;
+  expose ZRAP260_C_Booking as Booking;
+}
